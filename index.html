@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/icon-font.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon-32x32.png" />
+
+    <title>Royal Arts</title>
+  </head>
+
+  <body>
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+
+      <div class="navigation__background">&nbsp;</div>
+
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#Home" class="navigation__link"
+              ><span>01</span>HOME PAGE</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#about" class="navigation__link"
+              ><span>02</span>ABOUT US</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#certificate" class="navigation__link"
+              ><span>03</span>CERTIFICATE</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#products" class="navigation__link"
+              ><span>04</span>Products</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#contact" class="navigation__link"
+              ><span>05</span>Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <header class="header" id="Home">
+      <div class="header__logo-box">
+        <img src="img/logo.png" alt="small-logo" class="header__logo" />
+      </div>
+
+      <div class="header__text-box">
+        <h1 class="heading-primary">
+          <span class="heading-primary--main">Royal Arts</span>
+        </h1>
+
+        <a href="#about" class="btn btn--white btn--animated">Learn more</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-about" id="about">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">Heaven for Accessories</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-1-of-2">
+            <h3 class="heading-tertiary u-margin-bottom-small">
+              You are going to love our Products.
+            </h3>
+            <p class="paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
+              ipsum sapiente aspernatur libero repellat quis consequatur ducimus
+              quam nisi exercitationem omnis earum qui.
+            </p>
+
+            <h3 class="heading-tertiary u-margin-bottom-small">
+              Get Products and Services Like Never Before
+            </h3>
+            <p class="paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Asperiores nulla deserunt voluptatum nam.
+            </p>
+
+            <a href="#about" class="btn-text">Learn more &rarr;</a>
+          </div>
+          <div class="col-1-of-2">
+            <div class="composition">
+              <img
+                srcset="img/collection-1.jpg 300w, img/collection-1.jpg 1000w"
+                sizes="(max-width: 56.25em) 20vw, (max-width:
+              37.5em) 30vw, 300px"
+                alt="photo 1"
+                class="composition__photo composition__photo--p1"
+                src="img/collection-1.jpg"
+              />
+              <img
+                srcset="img/collection-2.jpg 300w, img/colletion-2.jpg 1000w"
+                sizes="(max-width: 56.25em) 20vw, (max-width:
+              37.5em) 30vw, 300px"
+                alt="photo 2"
+                class="composition__photo composition__photo--p2"
+                src="img/collection-2.jpg"
+              />
+              <img
+                srcset="
+                  img/collection-3.jpg        300w,
+                  img/collection-3-large.jpg 1000w
+                "
+                sizes="(max-width: 56.25em) 20vw, (max-width:
+              37.5em) 30vw, 300px"
+                alt="photo 3"
+                class="composition__photo composition__photo--p3"
+                src="img/collection-3.jpg"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-features" id="certificate">
+        <div class="row">
+          <h3 class="heading-secondary section-3">
+            Textile Certificate Oeko-Tex Standard 100
+          </h3>
+          <div class="col-1-of-2">
+            <img
+              srcset="img/cert.png 300w, img/Cert.png 1000w"
+              sizes="(max-width: 56.25em) 20vw, (max-width:
+          37.5em) 30vw, 300px"
+              alt="photo 2"
+              class="certificate"
+              src="img/cert.png"
+            />
+          </div>
+          <div class="col-1-of-2">
+            <p class="information">
+              Royal Arts Co., Ltd. is granted an authorization according to
+              Oeko-Tex® Standard 100 to use the Oeko-Tex® mark, based on the
+              test report HK025 120558.1.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-tours" id="products">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">Our Products</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--1">&nbsp;</div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--1"
+                    >The Sea Explorer</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>3 day tours</li>
+                    <li>Up to 30 people</li>
+                    <li>2 tour guides</li>
+                    <li>Sleep in cozy hotels</li>
+                    <li>Difficulty: easy</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-1">
+                <div class="card__cta">
+                  <div class="card__price-box">
+                    <p class="card__price-only">Only</p>
+                    <p class="card__price-value">$297</p>
+                  </div>
+                  <a href="#popup" class="btn btn--white">Book now!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--2">&nbsp;</div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--2"
+                    >The Forest Hiker</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>7 day tours</li>
+                    <li>Up to 40 people</li>
+                    <li>6 tour guides</li>
+                    <li>Sleep in provided tents</li>
+                    <li>Difficulty: medium</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-2">
+                <div class="card__cta">
+                  <div class="card__price-box">
+                    <p class="card__price-only">Only</p>
+                    <p class="card__price-value">$497</p>
+                  </div>
+                  <a href="#popup" class="btn btn--white">Book now!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--3">&nbsp;</div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--3"
+                    >The Snow Adventurer</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>5 day tours</li>
+                    <li>Up to 15 people</li>
+                    <li>3 tour guides</li>
+                    <li>Sleep in provided tents</li>
+                    <li>Difficulty: hard</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-3">
+                <div class="card__cta">
+                  <div class="card__price-box">
+                    <p class="card__price-only">Only</p>
+                    <p class="card__price-value">$897</p>
+                  </div>
+                  <a href="#popup" class="btn btn--white">Book now!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--1">&nbsp;</div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--1"
+                    >The Sea Explorer</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>3 day tours</li>
+                    <li>Up to 30 people</li>
+                    <li>2 tour guides</li>
+                    <li>Sleep in cozy hotels</li>
+                    <li>Difficulty: easy</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-1">
+                <div class="card__cta">
+                  <div class="card__price-box">
+                    <p class="card__price-only">Only</p>
+                    <p class="card__price-value">$297</p>
+                  </div>
+                  <a href="#popup" class="btn btn--white">Book now!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--2">&nbsp;</div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--2"
+                    >The Forest Hiker</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>7 day tours</li>
+                    <li>Up to 40 people</li>
+                    <li>6 tour guides</li>
+                    <li>Sleep in provided tents</li>
+                    <li>Difficulty: medium</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-2">
+                <div class="card__cta">
+                  <div class="card__price-box">
+                    <p class="card__price-only">Only</p>
+                    <p class="card__price-value">$497</p>
+                  </div>
+                  <a href="#popup" class="btn btn--white">Book now!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--3">&nbsp;</div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--3"
+                    >The Snow Adventurer</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>5 day tours</li>
+                    <li>Up to 15 people</li>
+                    <li>3 tour guides</li>
+                    <li>Sleep in provided tents</li>
+                    <li>Difficulty: hard</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-3">
+                <div class="card__cta">
+                  <div class="card__price-box">
+                    <p class="card__price-only">Only</p>
+                    <p class="card__price-value">$897</p>
+                  </div>
+                  <a href="#popup" class="btn btn--white">Book now!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--1">&nbsp;</div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--1"
+                    >The Sea Explorer</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>3 day tours</li>
+                    <li>Up to 30 people</li>
+                    <li>2 tour guides</li>
+                    <li>Sleep in cozy hotels</li>
+                    <li>Difficulty: easy</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-1">
+                <div class="card__cta">
+                  <div class="card__price-box">
+                    <p class="card__price-only">Only</p>
+                    <p class="card__price-value">$297</p>
+                  </div>
+                  <a href="#popup" class="btn btn--white">Book now!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--2">&nbsp;</div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--2"
+                    >The Forest Hiker</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>7 day tours</li>
+                    <li>Up to 40 people</li>
+                    <li>6 tour guides</li>
+                    <li>Sleep in provided tents</li>
+                    <li>Difficulty: medium</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-2">
+                <div class="card__cta">
+                  <div class="card__price-box">
+                    <p class="card__price-only">Only</p>
+                    <p class="card__price-value">$497</p>
+                  </div>
+                  <a href="#popup" class="btn btn--white">Book now!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--3">&nbsp;</div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--3"
+                    >The Snow Adventurer</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>5 day tours</li>
+                    <li>Up to 15 people</li>
+                    <li>3 tour guides</li>
+                    <li>Sleep in provided tents</li>
+                    <li>Difficulty: hard</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-3">
+                <div class="card__cta">
+                  <div class="card__price-box">
+                    <p class="card__price-only">Only</p>
+                    <p class="card__price-value">$897</p>
+                  </div>
+                  <a href="#popup" class="btn btn--white">Book now!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section class="section-stories">
+        <div class="bg-video">
+          <video class="bg-video__content" autoplay muted loop>
+            <source src="img/video.mp4" type="video/mp4" />
+            <source src="img/video.webm" type="video/webm" />
+            Your browser is not supported!
+          </video>
+        </div>
+
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">We make people genuinely happy</h2>
+        </div>
+
+        <div class="row">
+          <div class="story">
+            <figure class="story__shape">
+              <img
+                src="img/nat-8.jpg"
+                alt="Person on a tour"
+                class="story__img"
+              />
+              <figcaption class="story__caption">Mary Smith</figcaption>
+            </figure>
+            <div class="story__text">
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                I had the best week ever with my family
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aperiam, ipsum sapiente aspernatur libero repellat quis
+                consequatur ducimus quam nisi exercitationem omnis earum qui.
+                Aperiam, ipsum sapiente aspernatur libero repellat quis
+                consequatur ducimus quam nisi exercitationem omnis earum qui.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="story">
+            <figure class="story__shape">
+              <img
+                src="img/nat-9.jpg"
+                alt="Person on a tour"
+                class="story__img"
+              />
+              <figcaption class="story__caption">Jack Wilson</figcaption>
+            </figure>
+            <div class="story__text">
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                WOW! My life is completely different now
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aperiam, ipsum sapiente aspernatur libero repellat quis
+                consequatur ducimus quam nisi exercitationem omnis earum qui.
+                Aperiam, ipsum sapiente aspernatur libero repellat quis
+                consequatur ducimus quam nisi exercitationem omnis earum qui.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="u-center-text u-margin-top-huge">
+          <a href="#" class="btn-text">Read all stories &rarr;</a>
+        </div>
+      </section> -->
+    </main>
+
+    <footer class="footer" id="contact">
+      <div class="row">
+        <div class="col-1-of-4">
+          <div class="footer__navigation">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <div class="footer__item_contents">
+                  <a href="#" class="footer__link"
+                    ><img src="img/location_on_white_24dp.svg" alt="Location"
+                  /></a>
+                  <p>OUR LOCATION</p>
+                </div>
+
+                <div>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Ullam, enim. Alias doloribus esse quam suscipit nobis quo
+                  aliquam eaque dolorem, iste obcaecati?
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-1-of-4">
+          <div class="footer__navigation">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <div class="footer__item_contents">
+                  <a href="#" class="footer__link"
+                    ><img src="img/email_white_24dp.svg" alt="Location"
+                  /></a>
+                  <p>EMAIL</p>
+                </div>
+                <div>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Ullam, enim. Alias doloribus esse quam suscipit nobis quo
+                  aliquam eaque dolorem, iste obcaecati?
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-1-of-4">
+          <div class="footer__navigation">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <div class="footer__item_contents">
+                  <a href="#" class="footer__link"
+                    ><img src="img/whatsapp_white_24dp.svg" alt="Location"
+                  /></a>
+                  <p>+91 9636363636</p>
+                </div>
+                <div>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Ullam, enim. Alias doloribus esse quam suscipit nobis quo
+                  aliquam eaque dolorem, iste obcaecati?
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-1-of-4">
+          <div class="footer__navigation">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <div class="footer__item_contents">
+                  <a href="#" class="footer__link"
+                    ><img src="img/call_white_24dp.svg" alt="Location"
+                  /></a>
+                  <p>+91 9777112223</p>
+                </div>
+                <div>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Ullam, enim. Alias doloribus esse quam suscipit nobis quo
+                  aliquam eaque dolorem, iste obcaecati?
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- <div class="popup" id="popup">
+      <div class="popup__content">
+        <div class="popup__left">
+          <img src="img/nat-8.jpg" alt="Tour photo" class="popup__img" />
+          <img src="img/nat-9.jpg" alt="Tour photo" class="popup__img" />
+        </div>
+        <div class="popup__right">
+          <a href="#section-tours" class="popup__close">&times;</a>
+          <h2 class="heading-secondary u-margin-bottom-small">
+            Start booking now
+          </h2>
+          <h3 class="heading-tertiary u-margin-bottom-small">
+            Important &ndash; Please read these terms before booking
+          </h3>
+          <p class="popup__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed sed
+            risus pretium quam. Aliquam sem et tortor consequat id. Volutpat
+            odio facilisis mauris sit amet massa vitae. Mi bibendum neque
+            egestas congue. Placerat orci nulla pellentesque dignissim enim sit.
+            Vitae semper quis lectus nulla at volutpat diam ut venenatis.
+            Malesuada pellentesque elit eget gravida cum sociis natoque
+            penatibus et. Proin fermentum leo vel orci porta non pulvinar neque
+            laoreet. Gravida neque convallis a cras semper. Molestie at
+            elementum eu facilisis sed odio morbi quis. Faucibus vitae aliquet
+            nec ullamcorper sit amet risus nullam eget. Nam libero justo laoreet
+            sit. Amet massa vitae tortor condimentum lacinia quis vel eros
+            donec. Sit amet facilisis magna etiam. Imperdiet sed euismod nisi
+            porta.
+          </p>
+          <a href="#" class="btn btn--green">Book now</a>
+        </div>
+      </div>
+    </div> -->
+  </body>
+</html>
